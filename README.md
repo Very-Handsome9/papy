@@ -3,119 +3,114 @@ Functions commonly used in computer paper writing and scientific research.
 
 ## load dataset from file
 ### Function name
-load
+    load
 ### Parameters
 #### path
-optional: None(**default**), string
-None: current directory,
+    optional: None(**default**), string
+    None: current directory,
 data file directory
 #### col_labels
-optional: None(**default**), number
-None: non labels,
-0: the labels is in the first column,
-otherwise: the labels is in the last column
+    optional: None(**default**), number
+    None: non labels,
+    0: the labels is in the first column,
+    otherwise: the labels is in the last column
 ### scaling
-optional: True(**default**), False
-True: to max min scaling,
-False: no max min scaling
+    optional: True(**default**), False
+    True: to max min scaling,
+    False: no max min scaling
 ### Return
-(x, labels) / x
-x: samples set
-labels: label set
+    (x, labels) / x
+    x: samples set
+    labels: label set
 
 ## calculate the euclidean distance between point A and point B
 ### Function name
-dist
+    dist
 ### Parameters
 #### A
-point A
+    point A
 #### B
-point B
+    point B
 ### Return
-the eudlidean distance between point A and point B
+    the eudlidean distance between point A and point B
 
 ## draw scatter
 ### Function name
-plt_scatter
+    plt_scatter
 ### Parameters
 #### x
-samples set
+    samples set
 #### labels
-labels set
+    labels set
 #### axis_show
-optional: True(**default**), False
-True: show axis
-False: non axis
+    optional: True(**default**), False
+    True: show axis
+    False: non axis
 #### fig_label
-optional: [None](**default**), list
-[None]: non figure label
-otherwise:
-  list[0] is x label
-  list[1] is y label
+    optional: [None](**default**), list
+    [None]: non figure label
+    otherwise:
+      list[0] is x label
+      list[1] is y label
  #### fig_legend
- optional: None(**default**),list
+    optional: None(**default**),list
+    None: non legend
+    list: list[0] is text, 
  
- 
- None: non legend
- 
- 
- list: list[0] is text, 
- 
- list[0] is location
- 
-    '00' is up left,
-    '01' is up right,
-    '10 is down left,
-    '11' is down right
+    list[0] is location
+      '00' is up left,
+      '01' is up right,
+      '10 is down left,
+      '11' is down right
    
  #### save
- option: [None](**default**), list
- [None]: Do not save
- list: list[0] is file name, list[1] is dpi
+     option: [None](**default**), list
+    [None]: Do not save
+     list: list[0] is file name, list[1] is dpi
  
  ## draw runtime
  ### Function name
- plt_runtime
+    plt_runtime
  ### Parameters
  #### times
- y axis
+     y axis
  
- list[0] is 1th method time
+     list[0] is 1th method time
  
- list[1] is 2th method time
+    list[1] is 2th method time
  
- ...
+    ...
  
- list[n-1] is n-th method time
+    list[n-1] is n-th method time
  
  #### instances
- x axis
+    x axis
  
  #### save
-  option: [None](**default**), list
- [None]: Do not save
- list: list[0] is file name, list[1] is dpi
+     option: [None](**default**), list
+     [None]: Do not save
+     list: list[0] is file name, list[1] is dpi
  
  ## draw radar chart
  ### Function name
- plt_radar
+     plt_radar
  ### Parameters
  #### labels
- list
+    list
  
  #### data
- data list
+    data list
  
  #### algorithm
- algorithm list
+     algorithm list
  
  #### title
- figure tile
+     figure tile
  
  #### legend
- figure legend
+    figure legend
  
  #### save
-  option: [None](**default**), list
- [None]: Do not save
- list: list[0] is file name, list[1] is dpi
+      option: [None](**default**), list
+     [None]: Do not save
+     list: list[0] is file name, list[1] is dpi
