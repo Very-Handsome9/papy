@@ -53,4 +53,69 @@ otherwise:
   list[0] is x label
   list[1] is y label
  #### fig_legend
- optional: None(**default**),
+ optional: None(**default**),list
+ 
+ 
+ None: non legend
+ 
+ 
+ list: list[0] is text, 
+ 
+ list[0] is location
+ 
+    '00' is up left,
+    '01' is up right,
+    '10 is down left,
+    '11' is down right
+   
+ #### save
+ option: [None](**default**), list
+ [None]: Do not save
+ list: list[0] is file name, list[1] is dpi
+ 
+ ## draw runtime
+ ### Function name
+ plt_runtime
+ ### Parameters
+ #### times
+ y axis
+ 
+ list[0] is 1th method time
+ 
+ list[1] is 2th method time
+ 
+ ...
+ 
+ list[n-1] is n-th method time
+ 
+ #### instances
+ x axis
+ 
+ #### save
+  option: [None](**default**), list
+ [None]: Do not save
+ list: list[0] is file name, list[1] is dpi
+ 
+ ## draw radar chart
+ ### Function name
+ plt_radar
+ ### Parameters
+ #### labels
+ list
+ 
+ #### data
+ data list
+ 
+ #### algorithm
+ algorithm list
+ 
+ #### title
+ figure tile
+ 
+ #### legend
+ figure legend
+ 
+ #### save
+  option: [None](**default**), list
+ [None]: Do not save
+ list: list[0] is file name, list[1] is dpi
