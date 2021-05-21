@@ -69,7 +69,7 @@ scaling = False # no max min scaling
 
 x, r = py.load(path, col_labels, scaling)
 
-py.plt_scatter(x=x, labels=r, fig_label=['X——label','Y——label'], fig_legend=['Cluster','01'])
+py.plt_scatter(x=x, labels=r, fig_label=['X——label','Y——label'], fig_legend=['Cluster','01']) # 00-upper left, 01-upper right, 10-down left, 11-down right
 ```
 ![image](https://user-images.githubusercontent.com/82493254/119098644-9d09aa00-ba48-11eb-86cc-771cacee594e.png)
 
