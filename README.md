@@ -6,16 +6,13 @@ Functions commonly used in computer paper writing and scientific research.
 import perpy as py
 x = py.load()
 ```
-![image](https://user-images.githubusercontent.com/82493254/119088330-17333200-ba3b-11eb-8b26-5909c721409e.png)![image](https://user-images.githubusercontent.com/82493254/119088467-4e094800-ba3b-11eb-946c-048f1b496e62.png)
+![image](https://user-images.githubusercontent.com/82493254/119088330-17333200-ba3b-11eb-8b26-5909c721409e.png)
+![image](https://user-images.githubusercontent.com/82493254/119088467-4e094800-ba3b-11eb-946c-048f1b496e62.png)
 
 ```Python
 print(x)
 ```
->[[0.   1.   0.  ]  
->[0.25 0.75 0.  ]  
->[0.5  0.5  0.  ]  
->[0.75 0.25 1.  ]  
->[1.   0.   1.  ]]  
+![image](https://user-images.githubusercontent.com/82493254/119088970-0e8f2b80-ba3c-11eb-98b3-0cdeeb7b2f37.png)
 
 ### Parameters
 #### path
