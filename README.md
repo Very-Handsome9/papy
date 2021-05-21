@@ -28,7 +28,17 @@ x= py.load(path, col_labels, scaling)
 print(x)
 ```
 ![image](https://user-images.githubusercontent.com/82493254/119089890-6f6b3380-ba3d-11eb-8b97-1397267b630f.png)
-### case 2: the labels is in the first column & to max min scaling
+### CASE 2——The labels is in the first column & To max min scaling
+```Python
+path = r'D:\perpy' # file directory
+col_labels = 0 # the labels is in the first column
+scaling = True # to max min scaling
+
+x, r = py.load(path, col_labels, scaling)
+
+print(x, '\n', r)
+```
+![image](https://user-images.githubusercontent.com/82493254/119095841-5fefe880-ba45-11eb-9f66-79c110a935b4.png)
 
 ### Parameters
 #### path
