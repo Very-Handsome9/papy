@@ -61,6 +61,17 @@ dist = py.dist(A, B)
 print(dist)
 ```
 4.47213595499958
+## PLT_SCATTER——Drawing scatter plot
+```Python
+path = r'D:\perpy' # file directory
+col_labels = 2 # the labels is in the last column. non-zero number
+scaling = False # no max min scaling
+
+x, r = py.load(path, col_labels, scaling)
+
+py.plt_scatter(x=x, labels=r, fig_label=['X——label','Y——label'], fig_legend=['Cluster','01'])
+```
+![Uploading image.png…]()
 
 ### Parameters
 #### path
