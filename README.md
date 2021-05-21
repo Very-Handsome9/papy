@@ -1,4 +1,4 @@
-# papy
+# perpy
 Functions commonly used in computer paper writing and scientific research.
 
 ## load dataset from file
