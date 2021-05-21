@@ -1,4 +1,4 @@
-# perpy-Functions commonly used in computer paper writing and scientific research.
+# perpy——Functions commonly used in computer paper writing and scientific research.
 ## Install
 ```Python
 pip install perpy
@@ -7,8 +7,8 @@ pip install perpy
 ```Python
 import perpy as py
 ```
-## load()
-### test1.txt
+## load——load dataset from file
+### test file——test1.txt
 >**1 5 0**  
 >**2 4 0**  
 >**3 3 0**  
