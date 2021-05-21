@@ -3,7 +3,7 @@
 ```Python
 pip install perpy
 ```
-## Use
+## Import
 ```Python
 import perpy as py
 ```
