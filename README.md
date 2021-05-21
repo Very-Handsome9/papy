@@ -1,18 +1,26 @@
 # perpy
 Functions commonly used in computer paper writing and scientific research.
 
-## load dataset from file
+## load()
+### test1.txt
+>1 5 0  
+>2 4 0  
+>3 3 0  
+>4 2 1  
+>5 1 1  
 ```Python
-import perpy as py
-x = py.load()
+path = r'D:\perpy' # file directory
+col_labels = None # non label
+scaling = False # no max min scaling
+
+x= py.load(path, col_labels, scaling)
 ```
-![image](https://user-images.githubusercontent.com/82493254/119088330-17333200-ba3b-11eb-8b26-5909c721409e.png)
-![image](https://user-images.githubusercontent.com/82493254/119088467-4e094800-ba3b-11eb-946c-048f1b496e62.png)
+![image](https://user-images.githubusercontent.com/82493254/119089849-5d899080-ba3d-11eb-9863-0da34fc741f4.png)
 
 ```Python
 print(x)
 ```
-![image](https://user-images.githubusercontent.com/82493254/119088970-0e8f2b80-ba3c-11eb-98b3-0cdeeb7b2f37.png)
+![image](https://user-images.githubusercontent.com/82493254/119089890-6f6b3380-ba3d-11eb-8b97-1397267b630f.png)
 
 ### Parameters
 #### path
