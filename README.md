@@ -1,6 +1,6 @@
 # perpy-Functions commonly used in computer paper writing and scientific research.
 ## Install
-```pip
+```Python
 pip install perpy
 ```
 ## Require
