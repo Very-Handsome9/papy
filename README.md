@@ -3,12 +3,17 @@ Functions commonly used in computer paper writing and scientific research.
 
 ## load()
 ### test1.txt
+**
 >1 5 0  
 >2 4 0  
 >3 3 0  
 >4 2 1  
 >5 1 1  
+>**
+### case 1
 ```Python
+import perpy as py
+
 path = r'D:\perpy' # file directory
 col_labels = None # non label
 scaling = False # no max min scaling
