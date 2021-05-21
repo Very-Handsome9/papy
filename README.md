@@ -3,8 +3,8 @@ Functions commonly used in computer paper writing and scientific research.
 
 ## load dataset from file
 ```Python
-    import perpy as py
-    x, labels = py.load()
+import perpy as py
+x, labels = py.load()
 ```
 ### Parameters
 #### path
