@@ -9,7 +9,7 @@ Functions commonly used in computer paper writing and scientific research.
 >3 3 0  
 >4 2 1  
 >5 1 1  
->**
+**
 ### case 1
 ```Python
 import perpy as py
