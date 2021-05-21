@@ -1,20 +1,20 @@
 # perpy——Functions commonly used in computer paper writing and scientific research.
-## Install
+## INSTALL
 ```Python
 pip install perpy
 ```
-## Import
+## IMPORT
 ```Python
 import perpy as py
 ```
-## load——load dataset from file
-### test file——test1.txt
+## LOAD——load dataset from file
+### TEST FILE——test1.txt
 >**1 5 0**  
 >**2 4 0**  
 >**3 3 0**  
 >**4 2 1**  
 >**5 1 1**  
-### CASE 1: Non label & No max min scaling
+### CASE 1——Non label & No max min scaling
 ```Python
 path = r'D:\perpy' # file directory
 col_labels = None # non label
