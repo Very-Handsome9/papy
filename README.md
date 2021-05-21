@@ -4,9 +4,18 @@ Functions commonly used in computer paper writing and scientific research.
 ## load dataset from file
 ```Python
 import perpy as py
-x, labels = py.load()
+x = py.load()
 ```
-![image](https://user-images.githubusercontent.com/82493254/119087836-56ad4e80-ba3a-11eb-8958-1b3c3bf980d0.png)
+![image](https://user-images.githubusercontent.com/82493254/119088330-17333200-ba3b-11eb-8b26-5909c721409e.png)![image](https://user-images.githubusercontent.com/82493254/119088467-4e094800-ba3b-11eb-946c-048f1b496e62.png)
+
+```Python
+print(x)
+```
+>[[0.   1.   0.  ]
+>[0.25 0.75 0.  ]
+>[0.5  0.5  0.  ]
+>[0.75 0.25 1.  ]
+>[1.   0.   1.  ]]
 
 ### Parameters
 #### path
