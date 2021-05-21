@@ -38,7 +38,8 @@ x, r = py.load(path, col_labels, scaling)
 
 print(x, '\n', r)
 ```
-![image](https://user-images.githubusercontent.com/82493254/119095841-5fefe880-ba45-11eb-9f66-79c110a935b4.png)
+![image](https://user-images.githubusercontent.com/82493254/119095915-78f89980-ba45-11eb-90a4-cfbc4c14179c.png)
+
 
 ### Parameters
 #### path
