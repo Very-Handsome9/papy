@@ -72,6 +72,16 @@ x, r = py.load(path, col_labels, scaling)
 py.plt_scatter(x=x, labels=r, fig_label=['X——label','Y——label'], fig_legend=['Cluster','01']) # 00-upper left, 01-upper right, 10-down left, 11-down right
 ```
 ![image](https://user-images.githubusercontent.com/82493254/119098644-9d09aa00-ba48-11eb-86cc-771cacee594e.png)
+## PLT_RUNTIME——Drawing runtime plot
+```Python
+times = [[1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0], # Runtime list, times[0] is A times, times[1] is B times.
+        [1,1.1,1.2,1.3,1.4,1.5,1.6,1.7]]
+instances = [1,2,3,4,5,6,7,8] # x
+labels = ['$A$','$B$'] # labels
+
+py.plt_runtime(times, instances, labels)
+```
+![image](https://user-images.githubusercontent.com/82493254/119100505-9aa84f80-ba4a-11eb-8078-d6904f06ec2b.png)
 
 ### Parameters
 #### path
