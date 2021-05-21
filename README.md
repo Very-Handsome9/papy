@@ -14,7 +14,7 @@ import perpy as py
 >**3 3 0**  
 >**4 2 1**  
 >**5 1 1**  
-### case 1: Non label & no max min scaling
+### CASE 1: Non label & No max min scaling
 ```Python
 path = r'D:\perpy' # file directory
 col_labels = None # non label
