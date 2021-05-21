@@ -1,5 +1,4 @@
 # PERPY——Functions commonly used in computer paper writing and scientific research.
-[toc] Use Documentation
 ## INSTALL
 ```Python
 pip install perpy
@@ -51,6 +50,17 @@ x, r = py.load(path, col_labels, scaling)
 print(x, '\n', r)
 ```
 ![image](https://user-images.githubusercontent.com/82493254/119096315-050ac100-ba46-11eb-943c-1dba6f603e47.png)
+
+## DIST——Calculate the euclidean distance between point A and point B
+```Python
+A = np.mat([1,2,3,4]) # point A
+B = np.mat([4,3,2,1]) # point B
+
+dist = py.dist(A, B)
+
+print(dist)
+```
+4.47213595499958
 
 ### Parameters
 #### path
