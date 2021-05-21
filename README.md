@@ -1,4 +1,4 @@
-# perpy——Functions commonly used in computer paper writing and scientific research.
+# PERPY——Functions commonly used in computer paper writing and scientific research.
 ## INSTALL
 ```Python
 pip install perpy
