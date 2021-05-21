@@ -1,6 +1,10 @@
 # perpy
 Functions commonly used in computer paper writing and scientific research.
 
+## Require
+```Python
+import perpy as py
+```
 ## load()
 ### test1.txt
 >**1 5 0**  
@@ -8,7 +12,7 @@ Functions commonly used in computer paper writing and scientific research.
 >**3 3 0**  
 >**4 2 1**  
 >**5 1 1**  
-### case 1
+### case 1: Non label & no max min scaling
 ```Python
 import perpy as py
 
@@ -24,6 +28,7 @@ x= py.load(path, col_labels, scaling)
 print(x)
 ```
 ![image](https://user-images.githubusercontent.com/82493254/119089890-6f6b3380-ba3d-11eb-8b97-1397267b630f.png)
+### case 2: the labels is in the first column & to max min scaling
 
 ### Parameters
 #### path
