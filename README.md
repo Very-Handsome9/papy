@@ -6,6 +6,8 @@ Functions commonly used in computer paper writing and scientific research.
 import perpy as py
 x, labels = py.load()
 ```
+![image](https://user-images.githubusercontent.com/82493254/119087836-56ad4e80-ba3a-11eb-8958-1b3c3bf980d0.png)
+
 ### Parameters
 #### path
     optional: None(**default**), string
