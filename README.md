@@ -39,7 +39,17 @@ x, r = py.load(path, col_labels, scaling)
 print(x, '\n', r)
 ```
 ![image](https://user-images.githubusercontent.com/82493254/119095915-78f89980-ba45-11eb-90a4-cfbc4c14179c.png)
+### CASE 3——The labels is in the last column & No max min scaling
+```Python
+path = r'D:\perpy' # file directory
+col_labels = 2 # the labels is in the last column. non-zero number
+scaling = False # no max min scaling
 
+x, r = py.load(path, col_labels, scaling)
+
+print(x, '\n', r)
+```
+![image](https://user-images.githubusercontent.com/82493254/119096315-050ac100-ba46-11eb-943c-1dba6f603e47.png)
 
 ### Parameters
 #### path
