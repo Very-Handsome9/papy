@@ -10,6 +10,7 @@ import perpy as py
 ## VERSION——view version 查看版本
 ```Python
 py.version()
+![image](https://user-images.githubusercontent.com/82493254/119426926-b78b9e00-bd3c-11eb-9350-1bc038d8a952.png)
 ```
 ## LOAD——load dataset from file 加载——从文件加载数据集
 ### TEST FILE——test1.txt 测试文件
@@ -100,3 +101,25 @@ labels = np.array(['A','B','C','D','E'])
 py.plt_radar(labels, data, algorithm, legend=(1.7,0.68))
 ```
 ![image](https://user-images.githubusercontent.com/82493254/119101950-1d7dda00-ba4c-11eb-9422-76e120d71849.png)
+
+## METRICS——clustering metrics 聚类评价指标
+### IMPORT 导入
+```Python
+from perpy import clustering as cl
+```
+### TEST CASE——测试用例
+#### True labels——真实标签
+1,0,1,0,1
+#### predicted labels——预测标签
+1,1,1,0,0
+### Print metrics——输出评价指标
+```Python
+print('NMI:', cl.NMI(labels_true, labels_pred))
+print('ARI:', cl.ARI(labels_true, labels_pred))
+print('ACC:', cl.ACC(labels_true, labels_pred))
+print('AMI:', cl.AMI(labels_true, labels_pred))
+print('Completeness:', cl.Completeness(labels_true, labels_pred))
+print('Homogeneity:', cl.Homogeneity(labels_true, labels_pred))
+```
+![image](https://user-images.githubusercontent.com/82493254/119427790-4351fa00-bd3e-11eb-9397-1480f540aa34.png)
+
