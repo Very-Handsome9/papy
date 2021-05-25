@@ -7,6 +7,10 @@ pip install perpy
 ```Python
 import perpy as py
 ```
+## VERSION——view version 查看版本
+```Python
+py.version()
+```
 ## LOAD——load dataset from file 加载——从文件加载数据集
 ### TEST FILE——test1.txt 测试文件
 >**1 5 0**  
