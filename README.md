@@ -10,8 +10,8 @@ import perpy as py
 ## VERSION——view version 查看版本
 ```Python
 py.version()
-![image](https://user-images.githubusercontent.com/82493254/119426926-b78b9e00-bd3c-11eb-9350-1bc038d8a952.png)
 ```
+![image](https://user-images.githubusercontent.com/82493254/119426926-b78b9e00-bd3c-11eb-9350-1bc038d8a952.png)
 ## LOAD——load dataset from file 加载——从文件加载数据集
 ### TEST FILE——test1.txt 测试文件
 >**1 5 0**  
@@ -107,12 +107,16 @@ py.plt_radar(labels, data, algorithm, legend=(1.7,0.68))
 ```Python
 from perpy import clustering as cl
 ```
-### TEST CASE——测试用例
-#### True labels——真实标签
-1,0,1,0,1
-#### predicted labels——预测标签
-1,1,1,0,0
-### Print metrics——输出评价指标
+### TEST CASE 测试用例
+#### True labels 真实标签
+```Python
+labels_true = [1,0,1,0,1]
+```
+#### predicted labels 预测标签
+```Python
+labels_pred = [1,1,1,0,0]
+```
+### Print metrics 输出评价指标
 ```Python
 print('NMI:', cl.NMI(labels_true, labels_pred))
 print('ARI:', cl.ARI(labels_true, labels_pred))
