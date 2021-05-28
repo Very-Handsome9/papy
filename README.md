@@ -127,3 +127,21 @@ print('Homogeneity:', cl.Homogeneity(labels_true, labels_pred))
 ```
 ![image](https://user-images.githubusercontent.com/82493254/119427790-4351fa00-bd3e-11eb-9397-1480f540aa34.png)
 
+### DISTS——compute the distance matrix 计算距离矩阵
+```Python
+import numpy as np
+x = np.mat([[1,2],[3,1],[3,2],[4,5]])
+dists = py.dists(x, max_self=False)
+print(dists)
+```
+![image](https://user-images.githubusercontent.com/82493254/119975902-fcd3f800-bfe8-11eb-8ede-998b3d497325.png)
+
+```Python
+x = np.mat([[1,2],[3,1],[3,2],[4,5]])
+dists = py.dists(x, max_self=True)
+print(dists)
+```
+![image](https://user-images.githubusercontent.com/82493254/119975844-ecbc1880-bfe8-11eb-8a0a-7800b2ea78b0.png)
+
+
+
